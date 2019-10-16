@@ -57,5 +57,6 @@ Level 6: Implement a method that wil detect when an attack has landed on a playe
 \
 Level 7: Implement a method that will detect when the game is over. The conditions for a game over include: \
 The player's health has reached 0 \
-The CPU's health has reached 0 \ 
+The CPU's health has reached 0
+\ 
 The timer has run out of time.
