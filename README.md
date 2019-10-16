@@ -5,6 +5,8 @@ Design a 2D fighting game in Java
 
 ![Project UML](https://github.com/wedunsto/Major-Project-3-Fall-2019/blob/master/ProjectUMLUpdated.PNG)
 
+The Animation interface contains a method 'move()' that a class can implement.
+This method will be overwritten, and provide instruction on how to move fighters
 ![Animation UML](https://github.com/wedunsto/Major-Project-3-Fall-2019/blob/master/AnimationUMLUpdated.PNG)
 
 ![Asset UML](https://github.com/wedunsto/Major-Project-3-Fall-2019/blob/master/AssetUMLUpdated.PNG)
