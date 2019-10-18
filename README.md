@@ -16,17 +16,17 @@ The Fighter class can be implemented in **many ways**\
 This is where properties such as sprites, different viewports for animation, and the move() method is overwritten\
 ![Fighters UML](https://github.com/wedunsto/Major-Project-3-Fall-2019/blob/master/FightersUMLUpdated.PNG)
 
-The FightingStage class is where the fighting stage background is imported.\
+The FightingStage class is a **Pane** where the fighting stage background is imported.\
 Utilize this class' constructor to import the fighting stage onto the GameInterface\
 ![Fighting Stage UML](https://github.com/wedunsto/Major-Project-3-Fall-2019/blob/master/FightingStageUMLUpdated.PNG)
 
-The GameInterface class is where all the elements come together. The fighters are on the stage, the stage is on the game interface. The buttons to start, restart, and exit the game on the game interface, the status, including the players health and time remaining, are also on the game interface.
+The GameInterface class is a **BorderPane** where all the elements come together. The fighters are on the stage, the stage is on the game interface. The buttons to start, restart, and exit the game on the game interface, the status, including the players health and time remaining, are also on the game interface.
 ![Game Interface UML](https://github.com/wedunsto/Major-Project-3-Fall-2019/blob/master/GameInterfaceUMLUpdated.PNG)
 
-The ControlPanel class is where the button to start, restart, and exit the game are created. This can be implemented in **many ways**\
+The ControlPanel class is a **Hbox** where the button to start, restart, and exit the game are created. This can be implemented in **many ways**\
 ![Control Panel UML](https://github.com/wedunsto/Major-Project-3-Fall-2019/blob/master/ControlPanelUMLUpdated.PNG)
 
-The FightingMechanic class can be implemented in **many ways** \
+The FightingMechanic class is a **GridPane** can be implemented in **many ways** \
 This is where the results of combat are analyzed. This is where:\
   The health is decremented when a player is hit\
   The time left is evaluated\
