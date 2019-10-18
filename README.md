@@ -26,7 +26,7 @@ The GameInterface class is a **BorderPane** where all the elements come together
 The ControlPanel class is a **Hbox** where the button to start, restart, and exit the game are created. This can be implemented in **many ways**\
 ![Control Panel UML](https://github.com/wedunsto/Major-Project-3-Fall-2019/blob/master/ControlPanelUMLUpdated.PNG)
 
-The FightingMechanic class is a **GridPane** can be implemented in **many ways** \
+The FightingMechanic class is a **GridPane** that can be implemented in **many ways** \
 This is where the results of combat are analyzed. This is where:\
   The health is decremented when a player is hit\
   The time left is evaluated\
